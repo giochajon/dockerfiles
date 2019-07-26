@@ -7,6 +7,6 @@ RUN git clone https://github.com/xmrig/xmrig.git \
 && /usr/bin/cmake ../ \
 && /usr/bin/make 
 
-#setsid ./xmrig -o ca.minexmr.com:4444 -u 49Yj8rCSpvUWADijKUWpQyMYKQ66bqx2ZTWRE95P3zKWTGkzS5xyGkWb5AJ3eZdMM68TqoShCfd5QMfZkM4LHdk91hA6yHj.smallcomp29000 >> ./xmrigstatlog.txt
+#setsid /xmrig/build/xmrig -o ca.minexmr.com:4444 -u 49Yj8rCSpvUWADijKUWpQyMYKQ66bqx2ZTWRE95P3zKWTGkzS5xyGkWb5AJ3eZdMM68TqoShCfd5QMfZkM4LHdk91hA6yHj.smallcomp29000 >> /xmrig/xmrigstatlog.txt
 #docker build --tag=xmrminer .
 #docker run -it --rm xmrminer
